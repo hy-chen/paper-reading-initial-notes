@@ -1,9 +1,24 @@
 https://github.com/layer6ai-labs/RecSys2019
 http://www.cs.toronto.edu/~mvolkovs/recsys2019_challenge.pdf
-
-256GB RAM
-Feature Extraction with a lot re-used features then summarized features. 
 pipeline: data parsing, feature extraction, validation (and submission)
+
+topic:
+recommender system, personalization, in-session. 
+
+Feature Extract Idea:
+collaborative filtering (CF) use other users' preference to recommend items to the user. 
+this assumes long-term/global interest of the user. but for a lot of online applications, like those without subscribption or royal users, they couldn't use long term data/ long term data may not be consistent. secondly, even for frequently used apps, the user could be interested in something else occasionally and want to escape from the old, traditional recommendations. 
+as the jazz and rock music example in intro-original paper. 
+so needed in-session recommendation that captures local preference. 
+
+This challenge from ACM, use example of hotel recommendation. (one scenario may be, I use my account to search for an accomodation for my grandparents for a vacation, based on their selection criteria and preference.)
+
+
+Feature Extraction with a lot re-used features then summarized features. 
+
+-------------------------------------------
+Training: 
+256GB RAM
 
 XGB model:
 extreme gradient boosting 
@@ -27,5 +42,8 @@ XGBoosting vs MART:
 2. regularization wise:
 
 why XGBoosting is the most popular tool currently? 
+
+-----------------------------------
+
 
 
