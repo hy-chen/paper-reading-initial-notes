@@ -1,0 +1,28 @@
+256GB RAM
+Feature Extraction with a lot re-used features then summarized features. 
+pipeline: data parsing, feature extraction, validation (and submission)
+
+XGB model:
+extreme gradient boosting 
+boosting:
+tree method:
+
+tree boosting:
+
+base learner/weak learner:
+
+ensemble model:
+
+gradient boosting:
+
+regularization:
+
+bias variance decomposition:
+
+XGBoosting vs MART:
+1. algorithm wise:
+2. regularization wise:
+
+why XGBoosting is the most popular tool currently? 
+
+
