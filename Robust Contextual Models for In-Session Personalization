@@ -1,3 +1,6 @@
+https://github.com/layer6ai-labs/RecSys2019
+http://www.cs.toronto.edu/~mvolkovs/recsys2019_challenge.pdf
+
 256GB RAM
 Feature Extraction with a lot re-used features then summarized features. 
 pipeline: data parsing, feature extraction, validation (and submission)
